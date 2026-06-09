@@ -12,14 +12,22 @@ Comprender cómo una vulnerabilidad SQL Injection puede ser utilizada para evadi
 
 ## Metodología
 
-1. Identificación del punto de entrada.
+1. **Identificación del punto de entrada**
+
    Se identificó un formulario de autenticación que procesaba entradas proporcionadas por el usuario.
-2. Pruebas de caracteres especiales.
+   
+2. **Pruebas de caracteres especiales**
+
    Se realizaron pruebas sobre los campos de autenticación para observar posibles comportamientos indicativos de una interacción insegura con la base de datos.
-3. Confirmación de SQL Injection.
+   
+3. **Confirmación de SQL Injection**
+
    Las respuestas de la aplicación permitieron determinar que los datos ingresados influían directamente en la consulta SQL utilizada para validar credenciales.
-4. Bypass de autenticación.
+   
+4. **Bypass de autenticación**
+
    La vulnerabilidad permitió modificar la lógica de autenticación de la aplicación, logrando el acceso a una cuenta sin disponer de credenciales legítimas.
+   
 
 ## Evidencias
 
