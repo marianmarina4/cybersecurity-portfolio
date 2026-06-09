@@ -1,4 +1,4 @@
-# SQL injection attack, querying the database type and version on Oracle
+# SQL injection attack, querying the database type and version on MYSQL and Microsoft
 
 ## Objetivo
 
