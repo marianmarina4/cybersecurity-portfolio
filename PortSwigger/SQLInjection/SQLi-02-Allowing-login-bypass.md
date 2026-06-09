@@ -12,41 +12,16 @@ Comprender cómo una vulnerabilidad SQL Injection puede ser utilizada para evadi
 
 ## Metodología
 
-1. **Identificación del punto de entrada**
-
-   Se identificó un formulario de autenticación que procesaba entradas proporcionadas por el usuario.
-   
-2. **Pruebas de caracteres especiales**
-
-   Se realizaron pruebas sobre los campos de autenticación para observar posibles comportamientos indicativos de una interacción insegura con la base de datos.
-   
-3. **Confirmación de SQL Injection**
-
-   Las respuestas de la aplicación permitieron determinar que los datos ingresados influían directamente en la consulta SQL utilizada para validar credenciales.
-   
-4. **Bypass de autenticación**
-
-   La vulnerabilidad permitió modificar la lógica de autenticación de la aplicación, logrando el acceso a una cuenta sin disponer de credenciales legítimas.
+1. Intercepté la solicitud con Burp Suite.
+2. Modifiqué el parámetro username 
+3. Envié la solicitud.
+4. Loguee como administrador.
    
 
 ## Evidencias
 
-(Capturas propias)
+<img width="604" height="351" alt="image" src="https://github.com/user-attachments/assets/b32cf483-889c-4870-bbb6-b1a1a6f40a4d" />
 
-## Impacto
+**Result:**
 
-Una vulnerabilidad de este tipo puede permitir:
-
-- Acceso no autorizado a cuentas de usuario.
-- Suplantación de identidad.
-- Escalada de privilegios.
-- Compromiso de información sensible.
-- Toma de control parcial o total de la aplicación.
-
-En entornos reales, este tipo de vulnerabilidad puede derivar en una brecha de seguridad significativa.
-
-## Mitigación
-
-- Consultas parametrizadas.
-- Uso de mecanismos robustos de autenticación.
-- Validación y sanitización de entradas.
+<img width="736" height="305" alt="image" src="https://github.com/user-attachments/assets/c0bdb663-2271-4a72-a28d-a204c5978f77" />
