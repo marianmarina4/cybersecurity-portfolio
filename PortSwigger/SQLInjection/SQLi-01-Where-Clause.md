@@ -4,48 +4,18 @@
 
 Comprender cómo una vulnerabilidad SQL Injection puede alterar el comportamiento de una consulta SQL para recuperar datos no previstos por la aplicación.
 
-## Conceptos
-- SQL Injection
-- WHERE Clause Manipulation
-- Data Exposure
-- Input Validation
-- Query Logic Manipulation
+## Solución
 
-## Metodología
-
-1. **Identificación del punto de entrada**
-
-   Se identificó un parámetro controlado por el usuario que influía directamente en una consulta realizada por la aplicación.
-   
-2. **Análisis del comportamiento**
-
-   Se observaron diferencias en las respuestas de la aplicación al modificar el valor del parámetro, indicando una posible interacción insegura con la base de datos.
-   
-3. **Confirmación de SQL Injection**
-
-   Mediante pruebas controladas se verificó que era posible alterar la lógica de la cláusula WHERE de la consulta SQL.
-   
-4. **Explotación**
-
-   La vulnerabilidad permitió modificar los criterios de filtrado utilizados por la aplicación, provocando la visualización de registros que normalmente deberían permanecer ocultos.
+1. Intercepté la solicitud utilizando Burp Suite.
+2. Identifiqué el parámetro encargado de filtrar los productos por categoría.
+3. Modifiqué dicho parámetro para alterar la consulta SQL.
+4. Envié nuevamente la solicitud.
+5. Verifiqué que la respuesta mostraba productos que originalmente estaban ocultos.
 
 ## Evidencias
+<img width="454" height="127" alt="image" src="https://github.com/user-attachments/assets/f1867763-aace-4b59-a4e6-67ad6107e7df" />}
 
-(Capturas propias)
 
-## Impacto
+**Result:**
 
-Una vulnerabilidad de este tipo puede permitir:
-
-- Exposición de información sensible.
-- Acceso a registros restringidos.
-- Enumeración de datos internos.
-- Bypass de controles de negocio implementados únicamente a nivel de aplicación.
-
-## Mitigación
-
-- Consultas parametrizadas.
-- ORM.
-- Validación de entradas.
-- Aplicación del principio de mínimo privilegio en la base de datos.
-- Revisiones periódicas de código y pruebas de seguridad.
+<img width="1199" height="356" alt="image" src="https://github.com/user-attachments/assets/bee95201-c870-40b1-afbd-dcd361899374" />
