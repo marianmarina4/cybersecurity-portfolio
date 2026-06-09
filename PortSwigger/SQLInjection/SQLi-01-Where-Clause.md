@@ -2,20 +2,25 @@
 
 ## Objetivo
 
-Comprender cómo una SQL Injection puede utilizarse para evadir mecanismos de autenticación.
+Comprender cómo una vulnerabilidad SQL Injection puede alterar el comportamiento de una consulta SQL para recuperar datos no previstos por la aplicación.
 
 ## Conceptos
-
-- Authentication Bypass
 - SQL Injection
+- WHERE Clause Manipulation
+- Data Exposure
 - Input Validation
+- Query Logic Manipulation
 
 ## Metodología
 
 1. Identificación del punto de entrada.
-2. Pruebas de caracteres especiales.
+   Se identificó un parámetro controlado por el usuario que influía directamente en una consulta realizada por la aplicación.
+2. Análisis del comportamiento
+   Se observaron diferencias en las respuestas de la aplicación al modificar el valor del parámetro, indicando una posible interacción insegura con la base de datos.
 3. Confirmación de SQL Injection.
-4. Bypass de autenticación.
+   Mediante pruebas controladas se verificó que era posible alterar la lógica de la cláusula WHERE de la consulta SQL.
+4.Explotación
+La vulnerabilidad permitió modificar los criterios de filtrado utilizados por la aplicación, provocando la visualización de registros que normalmente deberían permanecer ocultos.
 
 ## Evidencias
 
@@ -23,15 +28,23 @@ Comprender cómo una SQL Injection puede utilizarse para evadir mecanismos de au
 
 ## Impacto
 
-Un atacante podría acceder a cuentas sin conocer credenciales válidas.
+Una vulnerabilidad de este tipo puede permitir:
+
+- Exposición de información sensible.
+- Acceso a registros restringidos.
+- Enumeración de datos internos.
+- Bypass de controles de negocio implementados únicamente a nivel de aplicación.
 
 ## Mitigación
 
 - Consultas parametrizadas.
 - ORM.
 - Validación de entradas.
+- Aplicación del principio de mínimo privilegio en la base de datos.
+- Revisiones periódicas de código y pruebas de seguridad.
 
 ## Aprendizajes
 
-- Cómo detectar una SQLi en formularios de login.
-- Cómo interpretar mensajes de error.
+- Cómo identificar parámetros que interactúan con consultas SQL.
+- Cómo detectar modificaciones inesperadas en la lógica de una consulta.
+- La importancia de utilizar consultas parametrizadas para prevenir SQL Injection.
