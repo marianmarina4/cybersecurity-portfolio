@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Comprender cómo una vulnerabilidad SQL Injection puede ser utilizada para evadir controles de autenticación y obtener acceso a una aplicación sin conocer credenciales válidas.
+Explotar una vulnerabilidad SQL Injection en un formulario de autenticación para acceder a una cuenta sin conocer credenciales válidas.
 
 ## Solución
 
