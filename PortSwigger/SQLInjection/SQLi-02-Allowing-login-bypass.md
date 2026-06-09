@@ -42,9 +42,3 @@ En entornos reales, este tipo de vulnerabilidad puede derivar en una brecha de s
 - Consultas parametrizadas.
 - Uso de mecanismos robustos de autenticación.
 - Validación y sanitización de entradas.
-
-## Aprendizajes
-
-- Cómo detectar una SQLi en formularios de login.
-- Cómo una consulta insegura puede afectar los controles de acceso.
-- El impacto que puede tener un bypass de autenticación en una aplicación.
