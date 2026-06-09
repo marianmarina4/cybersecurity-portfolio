@@ -42,9 +42,3 @@ Una vulnerabilidad de este tipo puede permitir:
 - Validación de entradas.
 - Aplicación del principio de mínimo privilegio en la base de datos.
 - Revisiones periódicas de código y pruebas de seguridad.
-
-## Aprendizajes
-
-- Cómo identificar parámetros que interactúan con consultas SQL.
-- Cómo detectar modificaciones inesperadas en la lógica de una consulta.
-- La importancia de utilizar consultas parametrizadas para prevenir SQL Injection.
