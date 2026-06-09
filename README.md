@@ -1,45 +1,79 @@
-# Walkthroughs — Mariano Marina
+# Cybersecurity Portfolio — Mariano Marina
 
-Repositorio personal de writeups, walkthroughs y notas técnicas sobre plataformas de pentesting y laboratorios de ciberseguridad.
+Repositorio personal de laboratorios, writeups, notas técnicas, scripts y documentación relacionada con pentesting, seguridad ofensiva y seguridad web.
 
 ---
 
 ## Tabla de contenidos
 
-* [Propósito del repositorio](#propósito-del-repositorio)
-* [Aviso legal / Ética](#aviso-legal--ética)
+* [Objetivo](#objetivo)
+* [Aviso legal / Ética](#areas-de-estudio)
+* [Tecnologías y herramientas](#tecnologías-y-herramientas)
 * [Metodología utilizada](#metodología-utilizada)
 * [Estructura del repositorio](#estructura-del-repositorio)
-* [Plantilla rápida para cada walkthrough](#plantilla-rápida-para-cada-walkthrough)
 * [Contacto](#contacto)
 * [Etiquetas](#etiquetas)
 
 ---
 
-## Propósito del repositorio
-Este repositorio reúne mis walkthroughs y análisis técnicos realizados en:
-- TryHackMe
-- HackMyVM
+## Objetivo
+Este repositorio funciona como mi portfolio de aprendizaje y práctica en ciberseguridad ofensiva.
+Aquí documento:
+- Laboratorios de seguridad web.
+- Máquinas vulnerables de plataformas de entrenamiento.
 - CTFs independientes
-- Laboratorios privados
-- Ejercicios de práctica personal
-Mi objetivo es documentar mi proceso de aprendizaje en seguridad ofensiva, mejorar mi metodología de pentesting y mantener un registro organizado de técnicas, herramientas y vulnerabilidades.
+- Scripts desarrollados para automatización y enumeración.
+- Notas técnicas sobre vulnerabilidades, metodologías y herramientas.
+El objetivo es mantener un registro organizado de conocimientos, mejorar mis habilidades técnicas y demostrar experiencia práctica en pentesting.
 
 
 ---
 
-## Aviso legal / Ética
+## Áreas de estudio
+### Seguridad Web
+- SQL Injection
+- Cross-Site Scripting (XSS)
+- Access Control
+- Authentication
 
-- Solo publico walkthroughs de máquinas retiradas, permitidas o creadas para práctica.
-- No incluyo flags, contraseñas reales ni claves privadas.
-- No publico writeups de máquinas activas de plataformas como HTB o THM.
-- Todo el contenido es únicamente para fines educativos y éticos
-s.
+### Pentesting
+- Enumeración de servicios
+- Explotación de vulnerabilidades
+- Escalada de privilegios en Linux
+- Post-Explotación
 
+### Redes
+- TCP/IP
+- DNS
+- HTTP/HTTPS
+- SMB
+  
+---
+
+## Tecnologías y herramientas
+### Sistemas operativos
+- Kali Linux
+- Windows
+- Ubuntu
+
+### Herramientas
+- Nmap
+- BurpSuite
+- ffuf
+- Gobuster
+- Metasploit
+- Wireshark
+- SQLMap
+
+### Lenguajes
+- Python
+- Javascript
+- Bash
+  
 ---
 
 ## Metodología utilizada
-Mis walkthroughs siguen una metodología ofensiva alineada con estándares como PTES y enfoques OSCP-like:
+La documentación sigue una metodología inspirada en PTES y procesos utilizados en auditorías de seguridad.
 1. Reconocimiento
 - Escaneos con Nmap
 - Identificación de servicios, versiones y vectores iniciales
@@ -65,7 +99,7 @@ Mis walkthroughs siguen una metodología ofensiva alineada con estándares como 
 ## Estructura del repositorio
 
 ```
-Walkthroughs-CTF-s/
+cybersecurity-portfolio/
 │
 ├── TryHackMe/
 │   ├── Easy/
@@ -75,7 +109,7 @@ Walkthroughs-CTF-s/
 │   │   └── ColddBox-THM.md
 │   └── (más niveles próximamente)
 │
-├── HackMyVM/
+├── PortSwigger/
 │   └── (walkthroughs futuros)
 │
 └── Plantillas y notas
@@ -83,23 +117,10 @@ Walkthroughs-CTF-s/
 
 ---
 
-## Plantilla rápida para cada walkthrough
-
-```markdown
-# Nombre de la máquina
-## 1. Reconocimiento
-## 2. Enumeración
-## 3. Explotación
-## 4. Escalada de privilegios
-## 5. Lecciones aprendidas
-## 6. Herramientas utilizadas
-```
-
----
-
 ## Contacto
 
-**Mariano Marina** — repositorio para uso personal, destinado únicamente a agregar mis walkthroughs y scripts de estudio.
+**Mariano Marina**
+Estudiante de Licenciatura en Informática
 
 ---
 
