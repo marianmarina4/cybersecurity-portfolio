@@ -6,10 +6,18 @@ Comprender cómo una vulnerabilidad SQL Injection puede ser utilizada para evadi
 
 ## Solución
 
-1. Intercepté la solicitud con Burp Suite.
+1. Intercepté la solicitud con Burp Suite.\
+   <img width="626" height="353" alt="image" src="https://github.com/user-attachments/assets/61f8037b-a604-4adc-b615-b1a09beee3b7" />
+
+
 2. Modifiqué el parámetro username.\
-   <img width="604" height="351" alt="image" src="https://github.com/user-attachments/assets/b32cf483-889c-4870-bbb6-b1a1a6f40a4d" />
-4. Envié la solicitud.
-5. Loguee como administrador.\
+   <img width="548" height="33" alt="image" src="https://github.com/user-attachments/assets/bc1a2209-9630-42f7-ab35-d1210a3848ce" />
+
+
+3. Loguee como administrador.\
    <img width="736" height="305" alt="image" src="https://github.com/user-attachments/assets/c0bdb663-2271-4a72-a28d-a204c5978f77" />
-   
+
+
+## Herramientas utilizadas
+- Burp Suite
+- Navegador Web
