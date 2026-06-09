@@ -4,13 +4,7 @@
 
 Comprender cómo una vulnerabilidad SQL Injection puede ser utilizada para evadir controles de autenticación y obtener acceso a una aplicación sin conocer credenciales válidas.
 
-## Conceptos
-
-- Authentication Bypass
-- SQL Injection
-- Input Validation
-
-## Metodología
+## Solución
 
 1. Intercepté la solicitud con Burp Suite.
 2. Modifiqué el parámetro username 
