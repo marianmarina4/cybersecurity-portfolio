@@ -13,7 +13,7 @@ Comprender cómo una vulnerabilidad SQL Injection puede alterar el comportamient
 
 ## Metodología
 
-1. **Identificación del punto de entrada.**
+1. **Identificación del punto de entrada**
 
    Se identificó un parámetro controlado por el usuario que influía directamente en una consulta realizada por la aplicación.
    
@@ -21,7 +21,7 @@ Comprender cómo una vulnerabilidad SQL Injection puede alterar el comportamient
 
    Se observaron diferencias en las respuestas de la aplicación al modificar el valor del parámetro, indicando una posible interacción insegura con la base de datos.
    
-3. **Confirmación de SQL Injection.**
+3. **Confirmación de SQL Injection**
 
    Mediante pruebas controladas se verificó que era posible alterar la lógica de la cláusula WHERE de la consulta SQL.
    
