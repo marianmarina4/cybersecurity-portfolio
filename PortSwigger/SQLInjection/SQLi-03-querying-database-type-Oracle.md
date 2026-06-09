@@ -14,14 +14,22 @@ Comprender cómo una SQL Injection puede utilizarse para evadir mecanismos de au
 
 ## Metodología
 
-1. Identificación del punto de entrada
+1. **Identificación del punto de entrada**
+
   Se identificó un parámetro controlado por el usuario que interactuaba directamente con consultas realizadas por la aplicación.
-2. Confirmación de la vulnerabilidad
+
+2. **Confirmación de la vulnerabilidad**
+
   Las pruebas realizadas permitieron verificar que la aplicación era vulnerable a SQL Injection.
-3. Reconocimiento de la base de datos
+
+3. **Reconocimiento de la base de datos**
+
   Se analizaron las respuestas de la aplicación para determinar el sistema gestor de bases de datos utilizado.
-4. Bypass de autenticación
+
+4. **Obtención de información de versión**
+
   Una vez identificado el entorno Oracle, se recuperó información relacionada con la versión del motor de base de datos.
+
 
 ## Evidencias
 
