@@ -20,7 +20,7 @@ Utilizar una vulnerabilidad SQL Injection para enumerar la estructura de una bas
 
 
 4. Identifiqué columnas relevantes almacenadas en la base de datos y recuperé la información de las mismas.\
-   <img width="751" height="15" alt="image" src="https://github.com/user-attachments/assets/be839232-c990-4fed-bdf5-82ab74cb959b" />
+   <img width="751" height="15" alt="image" src="https://github.com/user-attachments/assets/be839232-c990-4fed-bdf5-82ab74cb959b" />\
    <img width="171" height="57" alt="image" src="https://github.com/user-attachments/assets/942c8f12-2383-4f26-b08b-fb4ef9ab958e" />
 
 
