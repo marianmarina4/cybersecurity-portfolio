@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Utilizar una vulnerabilidad SQL Injection para enumerar la estructura de una base de datos y obtener información sobre sus tablas y columnas.
+Realizar un ataque de SQL Injection para enumerar la estructura de una base de datos y obtener información sobre sus tablas y columnas.
 
 ## Solución
 
