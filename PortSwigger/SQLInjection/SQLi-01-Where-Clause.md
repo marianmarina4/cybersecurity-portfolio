@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Comprender cómo una vulnerabilidad SQL Injection puede alterar el comportamiento de una consulta SQL para recuperar datos no previstos por la aplicación.
+Realizar un ataque de inyección SQL que provoque que la aplicación muestre uno o más productos aún no publicados.
 
 ## Solución
 
