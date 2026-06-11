@@ -20,7 +20,7 @@ Realizar un ataque de inyección SQL basado en UNION que devuelva una fila adici
    <img width="553" height="18" alt="image" src="https://github.com/user-attachments/assets/49237356-a16a-490e-a864-de6dfa8cd82f" />
 
    
-4. Comprobé que la página me devolviera el string insertado.\
+4. Comprobé que la página me devolviera el valor esperado.\
    <img width="435" height="65" alt="image" src="https://github.com/user-attachments/assets/a27a1a96-9f4c-4bfa-ade1-4fbaf4f511d4" />
 
 
