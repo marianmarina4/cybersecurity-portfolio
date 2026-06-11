@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Explotar una vulnerabilidad SQL Injection en un formulario de autenticación para acceder a una cuenta sin conocer credenciales válidas.
+Realizar un ataque de inyección SQL que permita iniciar sesión en la aplicación como el usuario administrador.
 
 ## Solución
 
