@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Utilizar una vulnerabilidad SQL Injection para enumerar la estructura de una base de datos Oracle y obtener información sobre sus tablas y columnas.
+Determinar la cantidad de columnas devueltas por la consulta realizando un ataque de inyección SQL UNION.
 
 ## Solución
 
