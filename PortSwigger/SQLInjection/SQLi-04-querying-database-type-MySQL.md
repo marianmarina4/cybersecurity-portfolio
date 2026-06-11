@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Identificar el tipo y la versión de la base de datos utilizada por la aplicación mediante una vulnerabilidad SQL Injection.
+Mostrar el tipo y la versión de la base de datos utilizada por la aplicación mediante una vulnerabilidad SQL Injection.
 
 ## Solución
 
