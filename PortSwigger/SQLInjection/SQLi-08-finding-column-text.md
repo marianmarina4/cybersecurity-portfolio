@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Hacer que la base de datos devuelva el string: 'U7Uefd'.
+Realizar un ataque de inyección SQL basado en UNION que devuelva una fila adicional que contenga el valor: 'U7Uefd'.
 
 ## Solución
 
