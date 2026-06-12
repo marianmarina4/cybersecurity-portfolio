@@ -119,7 +119,7 @@ cybersecurity-portfolio/
 
 ## Contacto
 
-**Mariano Marina**
+**Mariano Marina**\
 Estudiante de Licenciatura en Informática
 
 ---
