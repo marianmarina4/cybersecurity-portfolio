@@ -1,4 +1,4 @@
-# Cybersecurity Portfolio — Mariano Marina
+# Cybersecurity Labs — Mariano Marina
 
 Repositorio personal de laboratorios, writeups, notas técnicas, scripts y documentación relacionada con pentesting, seguridad ofensiva y seguridad web.
 
@@ -99,7 +99,7 @@ La documentación sigue una metodología inspirada en PTES y procesos utilizados
 ## Estructura del repositorio
 
 ```
-cybersecurity-portfolio/
+cybersecurity-labs/
 │
 ├── TryHackMe/
 │   ├── Easy/
